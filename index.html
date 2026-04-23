@@ -183,6 +183,25 @@
             font-size: 1.1em;
         }
 
+        .anime-gallery-link {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .anime-gallery-link:hover .anime-gallery-info {
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+        }
+
+        .anime-gallery-link-text {
+            display: inline-block;
+            margin-top: 10px;
+            color: #f4f4f4;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em;
@@ -250,56 +269,82 @@
             <h2>📽️ Alle 13 Animes</h2>
             <div class="anime-gallery-vertical">
                 <div class="anime-gallery-card">
-                    <img src="https://simonsjapan.dk/wp-content/uploads/2019/08/attack-on-titan-serie.jpg" alt="Attack on Titan">
-                    <div class="anime-gallery-info"><strong>1. Attack on Titan</strong><br>In einer Welt voller riesiger Titanen kämpfen Menschen ums Überleben hinter Mauern.<br>Kann auf Crunchyroll und Netflix gesehen werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=Mh8m0pF9wg4" target="_blank" rel="noopener noreferrer">
+                        <img src="https://simonsjapan.dk/wp-content/uploads/2019/08/attack-on-titan-serie.jpg" alt="Attack on Titan">
+                        <div class="anime-gallery-info"><strong>1. Attack on Titan</strong><br>In einer Welt voller riesiger Titanen kämpfen Menschen ums Überleben hinter Mauern.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/sharedimages/2024/06/death-note-2006.jpg" alt="Death Note">
-                    <div class="anime-gallery-info"><strong>2. Death Note</strong><br>Ein Schüler findet ein magisches Notizbuch, mit dem er Menschen töten kann.<br>Kann auf Netflix und Crunchyroll gefunden werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=2R0LtRktzRA" target="_blank" rel="noopener noreferrer">
+                        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/sharedimages/2024/06/death-note-2006.jpg" alt="Death Note">
+                        <div class="anime-gallery-info"><strong>2. Death Note</strong><br>Ein Schüler findet ein magisches Notizbuch, mit dem er Menschen töten kann.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/07/one-piece-franchise-poster.jpg" alt="One Piece">
-                    <div class="anime-gallery-info"><strong>3. One Piece</strong><br>Ein Pirat auf der Suche nach dem größten Schatz der Welt mit seiner Crew.<br>Kann auf Crunchyroll und Netflix geschaut werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=TYoCWIYF5y0" target="_blank" rel="noopener noreferrer">
+                        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/07/one-piece-franchise-poster.jpg" alt="One Piece">
+                        <div class="anime-gallery-info"><strong>3. One Piece</strong><br>Ein Pirat auf der Suche nach dem größten Schatz der Welt mit seiner Crew.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="Naruto">
-                    <div class="anime-gallery-info"><strong>4. Naruto</strong><br>Ein junger Ninja strebt danach, der stärkste seines Dorfes zu werden.<br>Kann auf Netflix und Prime Video gesehen werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=JIVozenBQtQ" target="_blank" rel="noopener noreferrer">
+                        <img src="https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="Naruto">
+                        <div class="anime-gallery-info"><strong>4. Naruto</strong><br>Ein junger Ninja strebt danach, der stärkste seines Dorfes zu werden.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://wallpapers.com/images/hd/demon-slayer-kimetsu-no-yaiba-logo-hprm0cbwsiag742f.jpg" alt="Demon Slayer">
-                    <div class="anime-gallery-info"><strong>5. Demon Slayer</strong><br>Ein Junge wird Dämonenjäger, um seine Familie zu rächen.<br>Kann auf Netflix und Crunchyroll geschaut werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=VQGCKyvzIM4" target="_blank" rel="noopener noreferrer">
+                        <img src="https://wallpapers.com/images/hd/demon-slayer-kimetsu-no-yaiba-logo-hprm0cbwsiag742f.jpg" alt="Demon Slayer">
+                        <div class="anime-gallery-info"><strong>5. Demon Slayer</strong><br>Ein Junge wird Dämonenjäger, um seine Familie zu rächen.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://th.bing.com/th/id/OIP.mF9KifJ1MaNMx-cpnTufkwHaEK?w=276&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Jujutsu Kaisen">
-                    <div class="anime-gallery-info"><strong>6. Jujutsu Kaisen</strong><br>Schüler einer magischen Schule bekämpfen verfluchte Geister.<br>Kann auf Crunchyroll und Netflix gesehen werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=uxHqlIJSoe4" target="_blank" rel="noopener noreferrer">
+                        <img src="https://th.bing.com/th/id/OIP.mF9KifJ1MaNMx-cpnTufkwHaEK?w=276&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Jujutsu Kaisen">
+                        <div class="anime-gallery-info"><strong>6. Jujutsu Kaisen</strong><br>Schüler einer magischen Schule bekämpfen verfluchte Geister.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://tse3.mm.bing.net/th/id/OIP.BHkZhAl4SWQ4Ubx-wtjongHaKj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dragon Ball Z">
-                    <div class="anime-gallery-info"><strong>7. Dragon Ball Z</strong><br>Krieger trainieren, um die Erde vor mächtigen Feinden zu verteidigen.<br>Kann auf Crunchyroll und Netflix geschaut werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=kEXxX0BPR9s" target="_blank" rel="noopener noreferrer">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.BHkZhAl4SWQ4Ubx-wtjongHaKj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dragon Ball Z">
+                        <div class="anime-gallery-info"><strong>7. Dragon Ball Z</strong><br>Krieger trainieren, um die Erde vor mächtigen Feinden zu verteidigen.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://th.bing.com/th/id/R.f505ce284616d6dee751dbb11eb40077?rik=mfI%2fXkfgRljZ5w&pid=ImgRaw&r=0" alt="Oshinoko">
-                    <div class="anime-gallery-info"><strong>8. Oshinoko</strong><br>Eine Geschichte über Reinkarnation und die Idol-Industrie.<br>Kann auf Crunchyroll und Netflix gefunden werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=BYMN9SnFrNQ" target="_blank" rel="noopener noreferrer">
+                        <img src="https://th.bing.com/th/id/R.f505ce284616d6dee751dbb11eb40077?rik=mfI%2fXkfgRljZ5w&pid=ImgRaw&r=0" alt="Oshinoko">
+                        <div class="anime-gallery-info"><strong>8. Oshinoko</strong><br>Eine Geschichte über Reinkarnation und die Idol-Industrie.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://img.anime2you.de/2025/06/The-Fragrant-Flower-Blooms-With-Dignity-KV.jpg" alt="Kaoruko und Rintaro">
-                    <div class="anime-gallery-info"><strong>9. Kaoruko und Rintaro</strong><br>Eine romantische Komödie über Blumen und unerwartete Liebe.<br>Kann auf Crunchyroll und Netflix geschaut werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/results?search_query=The+Fragrant+Flower+Blooms+With+Dignity+Trailer" target="_blank" rel="noopener noreferrer">
+                        <img src="https://img.anime2you.de/2025/06/The-Fragrant-Flower-Blooms-With-Dignity-KV.jpg" alt="Kaoruko und Rintaro">
+                        <div class="anime-gallery-info"><strong>9. Kaoruko und Rintaro</strong><br>Eine romantische Komödie über Blumen und unerwartete Liebe.<br><span class="anime-gallery-link-text">Trailer suchen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://tse1.mm.bing.net/th/id/OIP.-oiHlO1u_9Y43TkcNKn3hQHaKo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Spy Family">
-                    <div class="anime-gallery-info"><strong>10. Spy Family</strong><br>Eine Familie aus Spion, Assassine und Esper lebt undercover.<br>Kann auf Crunchyroll und Netflix gesehen werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=40Q8mGxS8Ds" target="_blank" rel="noopener noreferrer">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.-oiHlO1u_9Y43TkcNKn3hQHaKo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Spy Family">
+                        <div class="anime-gallery-info"><strong>10. Spy Family</strong><br>Eine Familie aus Spion, Assassine und Esper lebt undercover.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://tse4.mm.bing.net/th/id/OIP.6YZadK5N_1UCpdwurvW8WwHaLS?w=1200&h=1828&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Yozakura Family">
-                    <div class="anime-gallery-info"><strong>11. Yozakura Family</strong><br>Eine Familie von Spionen in einer actionreichen Komödie.<br>Kann auf Crunchyroll und Netflix gefunden werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/results?search_query=Yozakura+Family+Trailer" target="_blank" rel="noopener noreferrer">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.6YZadK5N_1UCpdwurvW8WwHaLS?w=1200&h=1828&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Yozakura Family">
+                        <div class="anime-gallery-info"><strong>11. Yozakura Family</strong><br>Eine Familie von Spionen in einer actionreichen Komödie.<br><span class="anime-gallery-link-text">Trailer suchen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://cdn.anisearch.de/images/anime/cover/18/18232_600.webp" alt="Die Tagebücher der Apothekerin">
-                    <div class="anime-gallery-info"><strong>12. Die Tagebücher der Apothekerin</strong><br>Eine Apothekerin löst Rätsel im alten China.<br>Kann auf Crunchyroll und Netflix geschaut werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/watch?v=wbAcgM_1xAo" target="_blank" rel="noopener noreferrer">
+                        <img src="https://cdn.anisearch.de/images/anime/cover/18/18232_600.webp" alt="Die Tagebücher der Apothekerin">
+                        <div class="anime-gallery-info"><strong>12. Die Tagebücher der Apothekerin</strong><br>Eine Apothekerin löst Rätsel im alten China.<br><span class="anime-gallery-link-text">Trailer ansehen</span></div>
+                    </a>
                 </div>
                 <div class="anime-gallery-card">
-                    <img src="https://static.wikia.nocookie.net/tamons-bside/images/2/23/F-ACE_Sweet_Magic_Album_Cover.jpeg/revision/latest/scale-to-width-down/1200?cb=20251121214433" alt="Tamon's B Side">
-                    <div class="anime-gallery-info"><strong>13. Tamon's B Side</strong><br>Eine Geschichte über Freundschaft und Musik in einer Band.<br>Kann auf Crunchyroll und Netflix gefunden werden.</div>
+                    <a class="anime-gallery-link" href="https://www.youtube.com/results?search_query=Tamon%27s+B+Side+Trailer" target="_blank" rel="noopener noreferrer">
+                        <img src="https://static.wikia.nocookie.net/tamons-bside/images/2/23/F-ACE_Sweet_Magic_Album_Cover.jpeg/revision/latest/scale-to-width-down/1200?cb=20251121214433" alt="Tamon's B Side">
+                        <div class="anime-gallery-info"><strong>13. Tamon's B Side</strong><br>Eine Geschichte über Freundschaft und Musik in einer Band.<br><span class="anime-gallery-link-text">Trailer suchen</span></div>
+                    </a>
                 </div>
             </div>
         </div>
